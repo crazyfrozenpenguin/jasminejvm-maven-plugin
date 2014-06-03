@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.crazyfrozenpenguin</groupId>
-    <artifactId>jasmine-jvm-maven-plugin</artifactId>
+    <artifactId>jasminejvm-maven-plugin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
@@ -104,7 +104,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-plugin-plugin</artifactId>
                 <configuration>
-                    <goalPrefix>jasmine-jvm</goalPrefix>
+                    <goalPrefix>jasminejvm</goalPrefix>
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                 </configuration>
                 <executions>
