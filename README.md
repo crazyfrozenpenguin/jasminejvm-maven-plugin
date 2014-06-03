@@ -20,10 +20,10 @@ Plugin Usage
 				</configuration>
 			</plugin>
 
-__Classpath Scope:__ system, compile, runtime or test. Defaults to test.
-__Spec files pattern:__ Defaults to ___"target/**/*Spec.js"___
-__Format:__ DOC, PROGRESS. Defaults to DOC.
-__Compile Mode:__ OFF, FORCE, JIT. Defaults to OFF.
+* __Classpath Scope:__ system, compile, runtime or test. Defaults to test.
+* __Spec files pattern:__ Defaults to ___"target/**/*Spec.js"___
+* __Format:__ DOC, PROGRESS. Defaults to DOC.
+* __Compile Mode:__ OFF, FORCE, JIT. Defaults to OFF.
 
 Tied by default to ___pre-integration-phase___ maven execution phase.
 
