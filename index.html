@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Jasminejvm-maven-plugin : Run Jasmine from the command line." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Jasminejvm-maven-plugin</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/crazyfrozenpenguin/jasminejvm-maven-plugin">View on GitHub</a>
+
+          <h1 id="project_title">Jasminejvm-maven-plugin</h1>
+          <h2 id="project_tagline">Run Jasmine from the command line.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/crazyfrozenpenguin/jasminejvm-maven-plugin/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/crazyfrozenpenguin/jasminejvm-maven-plugin/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="jasminejvm-maven-plugin" class="anchor" href="#jasminejvm-maven-plugin"><span class="octicon octicon-link"></span></a>jasminejvm-maven-plugin</h1>
+
+<p>Run Jasmine from the command line.</p>
+
+<h2>
+<a name="plugin-usage" class="anchor" href="#plugin-usage"><span class="octicon octicon-link"></span></a>Plugin Usage</h2>
+
+<h3>
+<a name="configuration-and-defaults" class="anchor" href="#configuration-and-defaults"><span class="octicon octicon-link"></span></a>configuration and defaults</h3>
+
+<pre><code>        &lt;plugin&gt;
+            &lt;groupId&gt;com.github.crazyfrozenpenguin&lt;/groupId&gt;
+            &lt;artifactId&gt;jasminejvm-maven-plugin&lt;/artifactId&gt;
+            &lt;version&gt;1.0.0&lt;/version&gt;
+            &lt;configuration&gt;
+                &lt;classpathScope&gt;test&lt;/classpathScope&gt;
+                &lt;pattern&gt;target/**/*Spec.js&lt;/pattern&gt;
+                &lt;format&gt;DOC&lt;/format&gt;
+                &lt;compileMode&gt;OFF&lt;/compileMode&gt;
+            &lt;/configuration&gt;
+        &lt;/plugin&gt;
+</code></pre>
+
+<ul>
+<li>
+<strong>Classpath Scope:</strong> system, compile, runtime or test. Defaults to test.</li>
+<li>
+<strong>Spec files pattern:</strong> Defaults to <strong><em>"target/**/*Spec.js"</em></strong>
+</li>
+<li>
+<strong>Format:</strong> DOC, PROGRESS. Defaults to DOC.</li>
+<li>
+<strong>Compile Mode:</strong> OFF, FORCE, JIT. Defaults to OFF.</li>
+</ul><p>Tied by default to <strong><em>pre-integration-phase</em></strong> maven execution phase.</p>
+
+<h3>
+<a name="goal-jasminejvmrun" class="anchor" href="#goal-jasminejvmrun"><span class="octicon octicon-link"></span></a>Goal: jasminejvm:run</h3>
+
+<p>Run Jasmine tests</p>
+
+<pre><code>    mvn jasminejvm:run
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Jasminejvm-maven-plugin maintained by <a href="https://github.com/crazyfrozenpenguin">crazyfrozenpenguin</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
