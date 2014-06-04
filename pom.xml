@@ -10,7 +10,7 @@
 
     <groupId>com.github.crazyfrozenpenguin</groupId>
     <artifactId>jasminejvm-maven-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>jasminejvm-maven-plugin</name>
